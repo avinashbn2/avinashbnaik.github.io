@@ -1,0 +1,63 @@
+$color: rgb(89, 107, 126);
+$colorLight: rgb(118, 138, 158);
+
+$textColor: #893843;
+$bgColor: #345;
+$color1: #c57b57;
+$color2: #e03616;
+
+html {
+  margin: 0px;
+  padding: 0px;
+  background-color: $bgColor;
+  color: #fff;
+}
+.brand {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  text-align: center;
+}
+.skillItem {
+  background-color: $color;
+  margin: 0 auto;
+  padding: 0.5rem;
+
+  &:hover {
+    opacity: 0.9;
+  }
+  .skillHeader {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: $colorLight;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.skill {
+  padding: 0.5rem;
+}
+.p1 {
+  margin: 1rem;
+}
+.footer {
+  position: fixed;
+  height: 28px;
+
+  bottom: 4px;
+  left: 49%;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 4px;
+}
+.icon {
+  font-size: 24px;
+}
